@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zeller's Congruence</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <div>
+        <h2>Zeller's Congruence<br>Day Finder</h2>
+
+        <!-- Form for user input -->
+        <form id="dateForm" onsubmit="return findDay()">
+            <div>
+                <label for="day">Enter day (1-31):</label>
+                <input type="number" id="day" name="day" min="1" max="31" required>
+            </div>
+
+            <div>
+                <label for="month">Enter month (1-12):</label>
+                <input type="number" id="month" name="month" min="1" max="12" required>
+            </div>
+
+            <div>
+                <label for="year">Enter year:</label>
+                <input type="number" id="year" name="year" required>
+            </div>
+
+            <div class="controls">
+                <input type="submit" value="Find Day">
+                <input type="reset" value="Clear">
+            </div>
+        </form>
+
+        <!-- Result Display -->
+        <p id="result"></p>
+    </div>
+
+    <!-- JavaScript to implement the Zeller's Congruence logic -->
+    <script src="file.js"></script>
+</body>
+</html>
