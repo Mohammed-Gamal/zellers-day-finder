@@ -19,6 +19,3 @@ Clone the repository:
    ```bash
      git clone https://github.com/mohammed-gamal/zellers-day-finder.git
    ```
-
-## License
-This project is licensed under the MIT License.
